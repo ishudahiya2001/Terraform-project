@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instancce" "Prod-server" {
-   ami = ""
+   ami = "ami-0c293f3f676ec4f90"
    instance_type = "t2.micro" 
    
        tags = {
